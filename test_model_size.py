@@ -15,7 +15,7 @@ def generate_couplet_dataset(
     dataset_size: int = 30,
     couplets_per_call: int = 5,
     model: str = "claude-3-haiku-20240307",
-    api_key: str = "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",
+    api_key: str = "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",
     max_retries: int = 3,
     retry_delay: int = 2
 ) -> List[str]:
@@ -64,7 +64,6 @@ def generate_couplet_dataset(
                 
                 # Extract the content from the response
                 content = response.content[0].text
-                
                 # Try to parse JSON from the response
                 # First, try to find JSON within markdown code blocks
                 json_start = content.find("```json")
@@ -96,7 +95,7 @@ def generate_couplet_dataset(
                             raise ValueError("Could not find couplet data in response")
                     
                     all_couplet_starts.extend(couplet_starts)
-                    print(f"Generated {len(couplet_starts)} couplet starts. Total: {len(all_couplet_starts)}/{dataset_size}")
+                    #print(f"Generated {len(couplet_starts)} couplet starts. Total: {len(all_couplet_starts)}/{dataset_size}")
                     break  # Success, exit retry loop
                     
                 except json.JSONDecodeError:
@@ -116,7 +115,7 @@ def generate_couplet_dataset(
 # %%
 prompt = "I'd like to build a small data set. I want the first line of potential rrhyming couplets like you would see in a simple, traditional poem. Here are some examples. 'He saw a carrot and had to grab it'. 'The silver moon casts its gentle light'. 'The clouds are gray, the raindrops fall'. And 'Boxes of books, a reader's delight'. Please write {num_couplets} first lines and return them in a JSON format. Return nothing else. Please don't write any intro or outro text. What you write will be read automatically into a JSON reader. Any extra writing will break the read."
 couplet_first_lines = generate_couplet_dataset(prompt)
-
+print(couplet_first_lines)
 
 # %%
 
