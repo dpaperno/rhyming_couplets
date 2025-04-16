@@ -1,3 +1,0 @@
-Error during API call: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}}. Attempt 1/3
-Error during API call: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}}. Attempt 2/3
-Error during API call: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}}. Attempt 3/3
