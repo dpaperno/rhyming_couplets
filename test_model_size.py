@@ -117,9 +117,6 @@ def generate_couplet_dataset(
 prompt = "I'd like to build a small data set. I want the first line of potential rrhyming couplets like you would see in a simple, traditional poem. Here are some examples. 'He saw a carrot and had to grab it'. 'The silver moon casts its gentle light'. 'The clouds are gray, the raindrops fall'. And 'Boxes of books, a reader's delight'. Please write {num_couplets} first lines and return them in a JSON format. Return nothing else. Please don't write any intro or outro text. What you write will be read automatically into a JSON reader. Any extra writing will break the read."
 couplet_first_lines = generate_couplet_dataset(prompt)
 
-# %%
-print(couplet_first_lines)
-
 
 # %%
 
