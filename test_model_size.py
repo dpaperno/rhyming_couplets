@@ -7,6 +7,8 @@ import time
 import requests
 from typing import List, Dict, Any
 import anthropic
+from transformers import AutoTokenizer
+
 
 # %%
 
@@ -113,17 +115,88 @@ def generate_couplet_dataset(
     return all_couplet_starts[:dataset_size]
 
 # %%
-prompt = "I'd like to build a small data set. I want the first line of potential rrhyming couplets like you would see in a simple, traditional poem. Here are some examples. 'He saw a carrot and had to grab it'. 'The silver moon casts its gentle light'. 'The clouds are gray, the raindrops fall'. And 'Boxes of books, a reader's delight'. Please write {num_couplets} first lines and return them in a JSON format. Return nothing else. Please don't write any intro or outro text. What you write will be read automatically into a JSON reader. Any extra writing will break the read."
-couplet_first_lines = generate_couplet_dataset(prompt)
-print(couplet_first_lines)
+#prompt = "I'd like to build a small data set. I want the first line of potential rrhyming couplets like you would see in a simple, traditional poem. Here are some examples. 'He saw a carrot and had to grab it'. 'The silver moon casts its gentle light'. 'The clouds are gray, the raindrops fall'. And 'Boxes of books, a reader's delight'. Please write {num_couplets} first lines and return them in a JSON format. Return nothing else. Please don't write any intro or outro text. What you write will be read automatically into a JSON reader. Any extra writing will break the read."
+#couplet_first_lines = generate_couplet_dataset(prompt)
+#print(couplet_first_lines)
+
+# %%
+def load_couplet_starts(filename="couplet_starts.txt"):
+    """
+    Load couplet starts from a text file where each line is a couplet start.
+    
+    Args:
+        filename (str): Path to the text file containing couplet starts
+        
+    Returns:
+        list: List of couplet start strings
+    """
+    couplet_starts = []
+    try:
+        with open(filename, 'r', encoding='utf-8') as file:
+            for line in file:
+                line = line.strip()
+                if line:  # Skip empty lines
+                    couplet_starts.append(line.strip("'"))
+        print(f"Loaded {len(couplet_starts)} couplet starts from {filename}")
+    except FileNotFoundError:
+        print(f"File not found: {filename}")
+    except Exception as e:
+        print(f"Error loading couplet starts: {str(e)}")
+    
+    return couplet_starts
+
+couplet_starts = load_couplet_starts()
+print(couplet_starts)
+
+
+# %%
+from huggingface_hub import login
+login("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")
 
 # %%
 
 # Load the Gemma 3 4B Instruct Tuned model
-# model = LanguageModel("google/gemma-3-4b-it", device_map="cuda")
-
-# # You can verify the model is loaded correctly
-# print(f"Model loaded: {model.model_name}")
-# print(f"Model parameters: {sum(p.numel() for p in model.parameters() if p.requires_grad) / 1e9:.2f}B")
+model = LanguageModel("google/gemma-3-4b-it", device_map="cuda")
 
 # %%
+# # You can verify the model is loaded correctly
+print(f"Model loaded: {model.config.name_or_path}")
+print(f"Model parameters: {sum(p.numel() for p in model.parameters() if p.requires_grad) / 1e9:.2f}B")
+
+# %%
+
+# Load the tokenizer matching your model
+tokenizer = AutoTokenizer.from_pretrained("google/gemma-3-4b-it")
+
+def generate_rhyming_couplet_completions(model, tokenizer, couplet_starts):
+    couplets = []
+    
+    for start in couplet_starts:
+        prompt = f"""This is the first line to a rhyming couplet in a poem:
+"{start}"
+
+Please respond only with a rhymig second line that makes a nice couplet with the first line."""
+
+        inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
+        output_ids = model.generate(**inputs, max_new_tokens=50)
+        full_output = tokenizer.decode(output_ids[0], skip_special_tokens=True)
+
+        second_line = full_output.replace(prompt, "").strip().strip('"\'')
+        if "\n" in second_line:
+            second_line = second_line.split("\n")[0].strip()
+
+        couplets.append((start, second_line))
+        print(f"First line: {start}")
+        print(f"Second line: {second_line}")
+        print("-" * 40)
+
+    return couplets
+
+
+# Generate rhyming couplets
+couplets = generate_rhyming_couplet_completions(model, tokenizer, couplet_starts)
+
+# Print all completed couplets
+print("\nAll completed couplets:")
+for first, second in couplets:
+    print(f"{first}\n{second}\n")
