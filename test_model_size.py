@@ -124,10 +124,10 @@ print(couplet_first_lines)
 # %%
 
 # Load the Gemma 3 4B Instruct Tuned model
-model = LanguageModel("google/gemma-3-4b-it", device_map="cuda")
+# model = LanguageModel("google/gemma-3-4b-it", device_map="cuda")
 
-# You can verify the model is loaded correctly
-print(f"Model loaded: {model.model_name}")
-print(f"Model parameters: {sum(p.numel() for p in model.parameters() if p.requires_grad) / 1e9:.2f}B")
+# # You can verify the model is loaded correctly
+# print(f"Model loaded: {model.model_name}")
+# print(f"Model parameters: {sum(p.numel() for p in model.parameters() if p.requires_grad) / 1e9:.2f}B")
 
 # %%
