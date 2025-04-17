@@ -28,7 +28,6 @@ first_line,second_line,rhymes
 "Beneath the oak, a squirrel scurries by",And flicks its tail with a knowing eye.,yes
 "Beneath the oak, a squirrel scurries by","And hunts for acorns, quick and high.",yes
 "Beneath the oak, a squirrel scurries by","With a flick of its tail, up to the sky.",yes
-"Beneath the oak, a squirrel scurries by",....,no
 "Beneath the oak, a squirrel scurries by",And whispers secrets to the wind so high.,yes
 "Beneath the oak, a squirrel scurries by",And searches for its nut in the sky,yes
 "Beneath the oak, a squirrel scurries by","The leaves fall down, from up so high",yes
@@ -581,7 +580,6 @@ The silver moon cast its gentle light,"On the sleeping world throughout the nigh
 "Boxes of books, a reader's delight","A world of knowledge, shining bright.",no
 "Boxes of books, a reader's delight","A treasure trove, both day and night.",yes
 "Boxes of books, a reader's delight",Where stories unfold both day and night.,yes
-"Boxes of books, a reader's delight",...,yes
 "Boxes of books, a reader's delight",Where stories unfold day and night,yes
 "Boxes of books, a reader's delight","A world of stories, day and night",yes
 "Boxes of books, a reader's delight","A universe of stories, shining bright",yes
@@ -738,7 +736,6 @@ The silver moon cast its gentle light,Upon the sleeping world tonight.,yes
 "Boxes of books, a reader's delight","A world of knowledge, shining bright.",no
 "Boxes of books, a reader's delight","Knowledge and wonder, shining so bright",yes
 "Boxes of books, a reader's delight","Filling their minds, both day and night.",no
-"Boxes of books, a reader's delight",...,yes
 "Boxes of books, a reader's delight",Where tales unfold both dark and bright.,yes
 Footsteps echoing on the schoolyard bricks,Where children laughed and joyously clicked.,yes
 Footsteps echoing on the schoolyard bricks,"Memories of laughter, joy, and tricks.",yes
