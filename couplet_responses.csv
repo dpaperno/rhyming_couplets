@@ -38,12 +38,7 @@ first_line,second_line,rhymes
 "Beneath the oak, a squirrel scurries by",and whispers secrets to the sky,yes
 "Beneath the oak, a squirrel scurries by",And seeks a nut to stash nearby,yes
 "Beneath the oak, a squirrel scurries by","With bushy tail held high, against the sky.",yes
-"Beneath the oak, a squirrel scurries by","{""line"" ""A flash of fur against the pale blue sky""} 
-
-
-
- ```json
-{ ""line"" ""A flash of fur",yes
+"Beneath the oak, a squirrel scurries by","A flash of fur against the pale blue sky"
 He saw a carrot and had to grab it,Its orange glow filled him with a habit.,yes
 He saw a carrot and had to grab it,Because his bunny heart was filled with rabbit.,yes
 He saw a carrot and had to grab it,"Because it looked so yummy, he couldn't quit it!",yes
@@ -58,13 +53,7 @@ He saw a carrot and had to grab it,"A crunchy snack, a delightful habit.",yes
 He saw a carrot and had to grab it,Because he loved to snack upon it.,yes
 He saw a carrot and had to grab it,"It was orange and fat, a real tasty bit.",yes
 He saw a carrot and had to grab it,This juicy treat he couldn't quit.,yes
-He saw a carrot and had to grab it,"Example
-{""line"" ""In a rusty old hat.""}
-
-
-    
-```json
-{""line"" ""Before it went splat.""}",no
+He saw a carrot and had to grab it,"Before it went splat.",no
 He saw a carrot and had to grab it,"It was so orange, a shining habit.",yes
 He saw a carrot and had to grab it,He couldn't let a veggie go un-snagged it,yes
 He saw a carrot and had to grab it,His hunger was quite a big habit.,yes
@@ -127,11 +116,7 @@ The silver moon cast its gentle light,Upon the sleeping world of night.,yes
 "Boxes of books, a reader's delight","A treasure trove, both day and night",yes
 "Boxes of books, a reader's delight",Filling their days and their nights.,yes
 "Boxes of books, a reader's delight",Adventures both wondrous and bright,yes
-"Boxes of books, a reader's delight","JSON format
-{""line"" ""A world of stories, day and night""}  
-
-```
-```",no
+"Boxes of books, a reader's delight","A world of stories, day and night",no
 "Boxes of books, a reader's delight",Where stories unfold both day and night,yes
 "Boxes of books, a reader's delight",Filling the shelves with stories bright,yes
 Footsteps echoing on the schoolyard bricks,"A symphony of sound, quickly picks",yes
@@ -141,17 +126,6 @@ Footsteps echoing on the schoolyard bricks,Laughter fades as evening quickly fli
 Footsteps echoing on the schoolyard bricks,a sound that never quite sticks,yes
 Footsteps echoing on the schoolyard bricks,Where laughter rings and childhood tricks,yes
 Footsteps echoing on the schoolyard bricks,Where laughter and memories intermix.,yes
-Footsteps echoing on the schoolyard bricks,"{
- ""line"" """"
- } 
- 
-
-
-```
-
-```json
-{
-""line"" ""As",no
 Footsteps echoing on the schoolyard bricks,A lone swing sways to a mournful clicks.,yes
 Footsteps echoing on the schoolyard bricks,Where children laugh and games they mix.,yes
 Footsteps echoing on the schoolyard bricks,As children laugh and play with little kicks.,yes
@@ -174,15 +148,7 @@ Footsteps echoing on the prison yard bricks,A solitary figure in worn-out denim 
 Footsteps echoing on the prison yard bricks,"A whisper of hope, a soul's subtle mix.",yes
 Footsteps echoing on the prison yard bricks,Where freedom's whispers meet with fate's quick tricks,yes
 Footsteps echoing on the prison yard bricks,A story of longing silently clicks.,no
-Footsteps echoing on the prison yard bricks,"``` json
-{
-""line"" ""A prisoner's story, a silent, bleak mix""
-}
-``` 
-
-
-
-Your",no
+Footsteps echoing on the prison yard bricks,"A prisoner's story, a silent, bleak mix",yes
 Footsteps echoing on the prison yard bricks,"A lonely heart within, seeks solace and picks",yes
 Footsteps echoing on the prison yard bricks,"A lonely bird sings, its captive heart picks.",yes
 Footsteps echoing on the prison yard bricks,"A lonely heart in desperate, silent clicks.",yes
@@ -234,19 +200,7 @@ Footsteps echoing on the prison yard bricks,"A heart that still yearns, for free
 "Beneath the oak, a squirrel scurries by",A flash of fur against the sky,yes
 He saw a carrot and had to grab it,and chomped it with a mighty rabbit.,yes
 He saw a carrot and had to grab it,"The orange vegetable, he couldn't quit it",yes
-He saw a carrot and had to grab it,"```json
-{
-  ""line"" ""It was too orange to ignore, like a traffic light, a beacon rabbit."" 
-}",no
-He saw a carrot and had to grab it,"For example, if the first line was
-
-The cat sat on the mat
-
-The JSON response should be
-
-```json
-{",no
-He saw a carrot and had to grab it,...,no
+He saw a carrot and had to grab it,"It was too orange to ignore, like a traffic light, a beacon rabbit.",yes
 He saw a carrot and had to grab it,So he could stick it in his habit.,yes
 He saw a carrot and had to grab it,His hunger was that kind of bandit,yes
 He saw a carrot and had to grab it,"What a tasty treat, his heart did fibbit.",no
@@ -281,11 +235,7 @@ He saw a wallet and had to grab it,It filled his heart with a greedy habit.,yes
 He saw a wallet and had to grab it,"He knew it was wrong, but filled with grit",yes
 He saw a wallet and had to grab it,"Its contents gleamed, a tempting habit",yes
 He saw a wallet and had to grab it,"He stared at it, a glistening habitat.",no
-He saw a wallet and had to grab it,"```json
-{
-""line"" ""He thought ""Easy cash, this I can nab it!""
-}
-```",no
+He saw a wallet and had to grab it,"He thought ""Easy cash, this I can nab it!",no
 The silver moon cast its gentle light,"And bathed the world in a soft, ethereal sight.",yes
 The silver moon cast its gentle light,Across the sleeping world so bright,yes
 The silver moon cast its gentle light,Across the sleeping world with all its might.,yes
@@ -306,15 +256,12 @@ The silver moon cast its gentle light,"Upon the sleeping world, a tranquil sight
 The silver moon cast its gentle light,"Upon the world, a shimmering sight.",yes
 The silver moon cast its gentle light,"Across the sleeping world, so soft and bright",yes
 The silver moon cast its gentle light,"Upon the sleeping world, soft and bright",yes
-"Boxes of books, a reader's delight","/
-{""line"" ""Filling each day and night.""}",yes
+"Boxes of books, a reader's delight","Filling each day and night.",yes
 "Boxes of books, a reader's delight",Filling each shelf with wisdom bright,yes
 "Boxes of books, a reader's delight","A world of stories, day and night.",yes
 "Boxes of books, a reader's delight","Where stories unfold, both dark and bright.",yes
 "Boxes of books, a reader's delight",A world of stories to open wide tonight,yes
-"Boxes of books, a reader's delight",...,yes
 "Boxes of books, a reader's delight","Where stories unfold, both day and night.",yes
-"Boxes of books, a reader's delight",___,no
 "Boxes of books, a reader's delight",Where stories unfold day and night.,yes
 "Boxes of books, a reader's delight","A treasure to find, both morning and night.",yes
 "Boxes of books, a reader's delight","A world of stories, day and night",yes
@@ -324,11 +271,7 @@ The silver moon cast its gentle light,"Upon the sleeping world, soft and bright"
 "Boxes of books, a reader's delight",A thousand tales to explore through the night,yes
 "Boxes of books, a reader's delight",Filling every shelf with boundless sight,yes
 "Boxes of books, a reader's delight",Where tales unfold in shades of night.,yes
-"Boxes of books, a reader's delight","```json
-{
-""line"" ""Worlds within worlds, both dark and bright"". 
-}
-```",no
+"Boxes of books, a reader's delight","Worlds within worlds, both dark and bright",no
 "Boxes of books, a reader's delight","Knowledge and stories, shining so bright",yes
 "Boxes of books, a reader's delight",Where stories unfold both day and night.,yes
 Footsteps echoing on the schoolyard bricks,A memory of summer lingers and clicks.,yes
@@ -380,12 +323,7 @@ Footsteps echoing on the prison yard bricks,"A chilling sound, that haunts and s
 "A single rose, its petals unfold","A fragrant breath, a story untold.",no
 "A single rose, its petals unfold","To scent the air, a story untold.",yes
 "A single rose, its petals unfold","A fragrant dance, a story untold.",no
-"A single rose, its petals unfold","```json
-{
-""line"" ""
-A soft blush of crimson, a story untold."" 
-}
-```",yes
+"A single rose, its petals unfold","A soft blush of crimson, a story untold.",yes
 "A single rose, its petals unfold","A sweet perfume, a story untold",yes
 "A single rose, its petals unfold","A vibrant hue, a story untold",no
 "A single rose, its petals unfold","A crimson hue, a story untold.",no
@@ -395,17 +333,6 @@ A soft blush of crimson, a story untold.""
 "A single rose, its petals unfold","A fragrant scent, a tale untold",yes
 "A single rose, its petals unfold","A blush of crimson, a story untold.",yes
 "A single rose, its petals unfold","A scarlet bloom, a story untold.",yes
-"A single rose, its petals unfold",... complete the couplet,yes
-"Beneath the oak, a squirrel scurries by","```json
- {
- ""line"" ""While sunlight paints the leaves up in the sky"".
- }
- ```   
-
-
-
-
-```",no
 "Beneath the oak, a squirrel scurries by","And gathers acorns, for a winter's nigh",yes
 "Beneath the oak, a squirrel scurries by",And chatters secrets to the sky.,yes
 "Beneath the oak, a squirrel scurries by",And gathers nuts beneath the sky.,yes
@@ -413,14 +340,7 @@ A soft blush of crimson, a story untold.""
 "Beneath the oak, a squirrel scurries by",With bushy tail held high and sly.,yes
 "Beneath the oak, a squirrel scurries by","As sunlight dapples, in the sky so high.",no
 "Beneath the oak, a squirrel scurries by",with bushy tail held high.,yes
-"Beneath the oak, a squirrel scurries by",...,yes
-"Beneath the oak, a squirrel scurries by","{
-""line"" ""Its bushy tail held high in the sky""
-}
-
-
-{
-""line"" ""With acorns",yes
+"Beneath the oak, a squirrel scurries by","Its bushy tail held high in the sky",yes
 "Beneath the oak, a squirrel scurries by",and sunlight filters through the sky.,no
 "Beneath the oak, a squirrel scurries by",A flash of brown against the sky.,yes
 "Beneath the oak, a squirrel scurries by","And hides its treasure, up so high.",yes
@@ -437,7 +357,6 @@ He saw a carrot and had to grab it,"And stuffed it whole, like a hungry rabbit."
 He saw a carrot and had to grab it,"His hunger, a desperate little habit",yes
 He saw a carrot and had to grab it,"It was so orange, making him quite smitten.",yes
 He saw a carrot and had to grab it,A juicy treat for his furry rabbit.,yes
-He saw a carrot and had to grab it,...,no
 He saw a carrot and had to grab it,"For a delicious, crunchy nibble and a happy rabbit.",yes
 He saw a carrot and had to grab it,"It was orange and bright, a delicious habit.",yes
 He saw a carrot and had to grab it,"It was bright orange, a delicious habit.",yes
@@ -455,10 +374,7 @@ He saw a wallet and had to grab it,He knew it meant a quick cashrabbit.,yes
 He saw a wallet and had to grab it,A quick escape before anyone was sad about it,yes
 He saw a wallet and had to grab it,So quick and easy was that bandit,yes
 He saw a wallet and had to grab it,"He slipped it in his pocket, quick as a rabbit.",yes
-He saw a wallet and had to grab it,"/
-{
-""line"" ""He'd never had such a fat, juicy rabbit."" 
-}",no
+He saw a wallet and had to grab it,"He'd never had such a fat, juicy rabbit.",no
 He saw a wallet and had to grab it,So greed took hold and he got the habit.,yes
 He saw a wallet and had to grab it,And quickly disappeared without a habit,yes
 He saw a wallet and had to grab it,"A thief's delight, a moment to flaunt it.",yes
@@ -519,7 +435,6 @@ Footsteps echoing on the schoolyard bricks,"A sound of laughter, light and quick
 Footsteps echoing on the schoolyard bricks,Where memories and laughter intermix.,yes
 Footsteps echoing on the schoolyard bricks,"The laughter of children, quick, light, and slick",yes
 Footsteps echoing on the schoolyard bricks,"Empty swings creak, with memories they mix.",yes
-Footsteps echoing on the schoolyard bricks,...,yes
 Footsteps echoing on the schoolyard bricks,As children laugh and play with boundless kicks.,yes
 Footsteps echoing on the schoolyard bricks,"Whispers of laughter, secrets they fix.",yes
 Footsteps echoing on the schoolyard bricks,"A hollow sound, both joyous and tricks.",yes
@@ -529,10 +444,7 @@ Footsteps echoing on the schoolyard bricks,"As children laugh with joyful, caref
 Footsteps echoing on the schoolyard bricks,Rekindle memories of forgotten tricks.,yes
 Footsteps echoing on the schoolyard bricks,Where memories of laughter softly mix.,yes
 Footsteps echoing on the schoolyard bricks,"A lonely child's heart, it softly clicks",yes
-Footsteps echoing on the schoolyard bricks,"/
-
-
-{""line"" ""Empty swings creak, their lonely tricks.""}",no
+Footsteps echoing on the schoolyard bricks,"Empty swings creak, their lonely tricks.",no
 Footsteps echoing on the schoolyard bricks,Where childhood dreams and laughter mix.,yes
 Footsteps echoing on the schoolyard bricks,A memory whispers of youthful tricks,yes
 Footsteps echoing on the schoolyard bricks,Where laughter and secrets freely mix.,yes
@@ -548,29 +460,14 @@ Footsteps echoing on the prison yard bricks,"This lonely rhythm, ever so quick",
 Footsteps echoing on the prison yard bricks,"A story of longing, of freedom, and ticks.",yes
 Footsteps echoing on the prison yard bricks,"Whispers of freedom, a heart's desperate fix.",yes
 Footsteps echoing on the prison yard bricks,"A solitary soul, in silence, he sticks",yes
-Footsteps echoing on the prison yard bricks,"""""""
-{
-""line"" ""A solitary soul, life's journey so sick.""
-}
-```",yes
+Footsteps echoing on the prison yard bricks,"A solitary soul, life's journey so sick.",yes
 Footsteps echoing on the prison yard bricks,A mournful song the hollow wind clicks.,yes
 Footsteps echoing on the prison yard bricks,Where shadows dance and hope slowly flicks.,yes
 Footsteps echoing on the prison yard bricks,"A lonely figure, with despair in his clicks",yes
-Footsteps echoing on the prison yard bricks,"{""line"" ""A silent testament to weary tricks.""}
-
-
-Thanks!",yes
+Footsteps echoing on the prison yard bricks,A silent testament to weary tricks.",yes
 Footsteps echoing on the prison yard bricks,"A hollow silence, where hope slowly flicks",yes
 Footsteps echoing on the prison yard bricks,"A silent vigil, where hope slowly flicks.",yes
 Footsteps echoing on the prison yard bricks,"A lone soul searching for solace, for fixes",yes
-Footsteps echoing on the prison yard bricks,"```json
-  {
-    ""line"" ""Where lonely souls in silent shadows fix""",yes
-"A single rose, its petals unfold","A fragrant sigh, a story untold.",no
-"A single rose, its petals unfold","A fragrance sweet, a beauty untold.",yes
-"A single rose, its petals unfold","{
-""line"" ""Unfurling beauty, a story untold.""
-} ```",yes
 "A single rose, its petals unfold","A crimson glow, a story told.",yes
 "A single rose, its petals unfold","A blushing hue, a story untold",yes
 "A single rose, its petals unfold","A fragrant scent, a story untold",yes
@@ -619,10 +516,7 @@ He saw a carrot and had to grab it,"His hunger for veggies, a wondrous habit",ye
 He saw a carrot and had to grab it,"So he could snack on it, just a bit.",yes
 He saw a carrot and had to grab it,"He laughed and ran with joy, so fit.",no
 He saw a carrot and had to grab it,"His hunger pangs, a rumbling, vibrant habit.",no
-He saw a carrot and had to grab it,"```json
-{
-""line"" ""With all his might, he wouldn't let it slip it.""
-}",no
+He saw a carrot and had to grab it,"With all his might, he wouldn't let it slip it.",no
 He saw a carrot and had to grab it,"Right out of the garden, he swiftly did gab it.",yes
 He saw a carrot and had to grab it,"It was so orange, just a little bit flabby",yes
 He saw a carrot and had to grab it,his hunger was a bottomless rabbit.,no
@@ -648,11 +542,7 @@ He saw a wallet and had to grab it,His greed took hold and gave him a writ,yes
 He saw a wallet and had to grab it,His heart was filled with greed and grit,yes
 He saw a wallet and had to grab it,So he could put his plans in a habit.,no
 He saw a wallet and had to grab it,He saw a wallet and had to grab it,yes
-He saw a wallet and had to grab it,"{
-  ""line"" ""He saw a wallet and felt a habit""
-} 
-
-```",yes
+He saw a wallet and had to grab it,"He saw a wallet and felt a habit",yes
 He saw a wallet and had to grab it,"So quickly, his conscience would stab it.",yes
 He saw a wallet and had to grab it,It wouldn't be right to leave it.,yes
 The silver moon cast its gentle light,"Upon the world, a peaceful sight.",yes
@@ -661,10 +551,7 @@ The silver moon cast its gentle light,Upon the sleeping world so bright.,yes
 The silver moon cast its gentle light,And bathed the world in shimmering white.,yes
 The silver moon cast its gentle light,"and painted the meadows, a breathtaking sight.",yes
 The silver moon cast its gentle light,Illuminating the peaceful night.,yes
-The silver moon cast its gentle light,"""""""
-{
-""line"" ""Upon the sleeping world so bright.""
-}",yes
+The silver moon cast its gentle light,"Upon the sleeping world so bright.",yes
 The silver moon cast its gentle light,"Across the sleeping world, a silver sight.",yes
 The silver moon cast its gentle light,Upon the sleeping world so bright,yes
 The silver moon cast its gentle light,"Upon the sleeping earth, so still and bright.",yes
@@ -677,7 +564,7 @@ The silver moon cast its gentle light,Upon the world so dark and bright,yes
 The silver moon cast its gentle light,And bathed the world in a silver sight.,yes
 The silver moon cast its gentle light,"Across the sleeping land, so quiet and bright.",yes
 The silver moon cast its gentle light,"Upon the sleeping world, a silent sight.",yes
-The silver moon cast its gentle light,"`{""line"" ""On the sleeping world throughout the night.""}`",yes
+The silver moon cast its gentle light,"On the sleeping world throughout the night.",yes
 "Boxes of books, a reader's delight","A treasure trove, day and night",yes
 "Boxes of books, a reader's delight","Where stories unfold, both dark and bright",yes
 "Boxes of books, a reader's delight",Filling each shelf with literary might.,yes
@@ -713,18 +600,8 @@ Footsteps echoing on the schoolyard bricks,"A lone bell tolls, the day now in it
 Footsteps echoing on the schoolyard bricks,"A memory stirring, the future it flicks",yes
 Footsteps echoing on the schoolyard bricks,A symphony of sound that swiftly flicks.,yes
 Footsteps echoing on the schoolyard bricks,Where secrets whisper and laughter picks,yes
-Footsteps echoing on the schoolyard bricks,"For example 
-
-{""line"" ""A gentle breeze begins to stir""}
-
-
-
-
-```json
-{""line"" ""As children laugh and merrily",no
 Footsteps echoing on the schoolyard bricks,"A memory of laughter, quickly it clicks",yes
-Footsteps echoing on the schoolyard bricks,"{""line""""A lonely whistle, a final, fleeting flick""}
-```",no
+Footsteps echoing on the schoolyard bricks,"A lonely whistle, a final, fleeting flick",no
 Footsteps echoing on the schoolyard bricks,Whispering tales of laughter and of tricks.,yes
 Footsteps echoing on the schoolyard bricks,"A laughter's joy, and childish tricks.",yes
 Footsteps echoing on the prison yard bricks,"A heavy silence lingers, cold and thick",yes
@@ -732,10 +609,7 @@ Footsteps echoing on the prison yard bricks,A heart both yearning and full of tr
 Footsteps echoing on the prison yard bricks,"A hollow silence, where hope quickly flicks.",yes
 Footsteps echoing on the prison yard bricks,A lonely soul seeking freedom's quick fix.,yes
 Footsteps echoing on the prison yard bricks,"A lonely ghost walks, with sorrow it picks.",yes
-Footsteps echoing on the prison yard bricks,"{
-  ""line"" ""A haunting reminder of freedom's quick tricks""
-}
-```",yes
+Footsteps echoing on the prison yard bricks,"A haunting reminder of freedom's quick tricks",yes
 Footsteps echoing on the prison yard bricks,"A symphony of sorrow, silence picks",yes
 Footsteps echoing on the prison yard bricks,"A lonely soul's despair, quick, quick clicks.",yes
 Footsteps echoing on the prison yard bricks,"Reminding him of freedom, quick as a flick.",yes
@@ -752,13 +626,8 @@ Footsteps echoing on the prison yard bricks,"A lonely heart, its sorrows it pick
 Footsteps echoing on the prison yard bricks,"A lonely whisper, time softly clicks.",no
 "A single rose, its petals unfold","A fragrant promise, a story untold.",no
 "A single rose, its petals unfold","A fragrant tale, of love untold.",yes
-"A single rose, its petals unfold","""""""
- 
-{
-""line"" ""Beneath a sun, both warm and bold.""
-}",yes
+"A single rose, its petals unfold","Beneath a sun, both warm and bold.",yes
 "A single rose, its petals unfold","Unveiling beauty, a sight to behold.",yes
-"A single rose, its petals unfold",...the story it does hold,yes
 "A single rose, its petals unfold","To greet the dawn, a story untold.",no
 "A single rose, its petals unfold","To grace a world, both new and old.",yes
 "A single rose, its petals unfold","A fragrant promise, both brave and bold.",yes
@@ -775,15 +644,7 @@ Footsteps echoing on the prison yard bricks,"A lonely whisper, time softly click
 "A single rose, its petals unfold",Upon a stem so green and bold.,yes
 "A single rose, its petals unfold","A gentle breeze, its fragrance bold",yes
 "Beneath the oak, a squirrel scurries by","With a flash of tail, towards the sky",yes
-"Beneath the oak, a squirrel scurries by","```json
-{
-""line"" ""And chatter's heard beneath a summer sky"".
-}
-```
-
-
-
-Let me know if you",no
+"Beneath the oak, a squirrel scurries by","And chatter's heard beneath a summer sky.",yes
 "Beneath the oak, a squirrel scurries by",And leaps across the sunlit sky.,yes
 "Beneath the oak, a squirrel scurries by","Beneath the sun, a bird will fly",yes
 "Beneath the oak, a squirrel scurries by","With a flick of tail, up in the sky",yes
@@ -795,10 +656,7 @@ Let me know if you",no
 "Beneath the oak, a squirrel scurries by",And chirps a happy tune on high.,yes
 "Beneath the oak, a squirrel scurries by",Its bushy tail held high in the sky.,yes
 "Beneath the oak, a squirrel scurries by",A flash of brown against the sky.,yes
-"Beneath the oak, a squirrel scurries by","```json
-  {
-  ""line"" ""And through the leaves, a bluebird sings nearby.""
-  }",no
+"Beneath the oak, a squirrel scurries by","And through the leaves, a bluebird sings nearby.",no
 "Beneath the oak, a squirrel scurries by","With twitching tail, it leaps to the sky.",yes
 "Beneath the oak, a squirrel scurries by",And whispers secrets to the sky.,yes
 "Beneath the oak, a squirrel scurries by",And gathers nuts against the sky.,yes
@@ -861,25 +719,6 @@ The silver moon cast its gentle light,"Across the night, a shimmering sight.",ye
 The silver moon cast its gentle light,"Upon the world, a silent night.",yes
 The silver moon cast its gentle light,"Across the sleeping world, so soft and bright.",yes
 The silver moon cast its gentle light,"Across the sleeping world, so soft and bright.",yes
-The silver moon cast its gentle light,"{
-""line"" ""Upon the sleeping world so bright.""
-
-
-}
-```",yes
-The silver moon cast its gentle light,And bathed the world in a peaceful night,yes
-The silver moon cast its gentle light,"```json
-{
-""line"" ""
-
-}
-```
-
-
-
-```json
-{
-""line"" ""Upon the sleeping world, a",no
 The silver moon cast its gentle light,Upon the sleeping world tonight.,yes
 "Boxes of books, a reader's delight","Stories untold, day and night",yes
 "Boxes of books, a reader's delight","Where tales unfold in the soft, warm light",yes
@@ -914,12 +753,6 @@ Footsteps echoing on the schoolyard bricks,"A playground bustling, full of happy
 Footsteps echoing on the schoolyard bricks,A symphony of sound that quickly clicks,yes
 Footsteps echoing on the schoolyard bricks,"Memory's soft touch, the past now clicks.",yes
 Footsteps echoing on the schoolyard bricks,And whispers linger from forgotten tricks.,yes
-Footsteps echoing on the schoolyard bricks,"{
-  ""line"" ""..."" 
-  } 
-""""""
-{
-  ""line"" ""A memory awakened, swift",no
 Footsteps echoing on the schoolyard bricks,Forgotten laughter fills the hollow clicks,yes
 Footsteps echoing on the schoolyard bricks,"A lonely heart, its silence thick.",yes
 Footsteps echoing on the schoolyard bricks,Where laughter rings and memories stick.,yes
@@ -938,8 +771,6 @@ Footsteps echoing on the prison yard bricks,"A hollow sound, where hope slowly f
 Footsteps echoing on the prison yard bricks,A prisoner's heart with yearning picks.,yes
 Footsteps echoing on the prison yard bricks,A hollow sound that whispers of broken sticks,yes
 Footsteps echoing on the prison yard bricks,"Please make sure the answer adheres to the following 
- Rhyme Scheme AABB
- Meter Iambic",no
 Footsteps echoing on the prison yard bricks,"A lonely soul seeks freedom, quick.",yes
 Footsteps echoing on the prison yard bricks,"A solitary sound, a heart that ticks and sticks",yes
 Footsteps echoing on the prison yard bricks,"Memories of freedom, fragile, thin, and quick",yes
