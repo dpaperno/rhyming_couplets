@@ -1,0 +1,196 @@
+first_line,second_line,rhymes
+"A single rose, its petals unfold","Unveiling beauty, a sight to behold.",yes
+"A single rose, its petals unfold",A sweet aroma takes hold.,yes
+"A single rose, its petals unfold","A fragrant tale, a story untold.",no
+"A single rose, its petals unfold","Releasing fragrance, sweet and old.",yes
+"A single rose, its petals unfold","A crimson hue, a story untold.",no
+"A single rose, its petals unfold",As crimson hues to velvet hold.,yes
+"A single rose, its petals unfold","A fragrant breath, a story untold.",no
+"A single rose, its petals unfold","To scent the air, a story untold.",yes
+"A single rose, its petals unfold","A fragrant dance, a story untold.",no
+"A single rose, its petals unfold","```json
+{
+""line"" ""
+A soft blush of crimson, a story untold."" 
+}
+```",yes
+"A single rose, its petals unfold","A sweet perfume, a story untold",yes
+"A single rose, its petals unfold","A vibrant hue, a story untold",no
+"A single rose, its petals unfold","A crimson hue, a story untold.",no
+"A single rose, its petals unfold","Revealing secrets, stories untold.",yes
+"A single rose, its petals unfold","revealing beauty, stories untold.",yes
+"A single rose, its petals unfold","Unveiling beauty, a story untold",yes
+"A single rose, its petals unfold","A fragrant scent, a tale untold",yes
+"A single rose, its petals unfold","A blush of crimson, a story untold.",yes
+"A single rose, its petals unfold","A scarlet bloom, a story untold.",yes
+"A single rose, its petals unfold",... complete the couplet,yes
+"Beneath the oak, a squirrel scurries by","```json
+ {
+ ""line"" ""While sunlight paints the leaves up in the sky"".
+ }
+ ```   
+
+
+
+
+```",no
+"Beneath the oak, a squirrel scurries by","And gathers acorns, for a winter's nigh",yes
+"Beneath the oak, a squirrel scurries by",And chatters secrets to the sky.,yes
+"Beneath the oak, a squirrel scurries by",And gathers nuts beneath the sky.,yes
+"Beneath the oak, a squirrel scurries by",And flicks its bushy tail up high.,yes
+"Beneath the oak, a squirrel scurries by",With bushy tail held high and sly.,yes
+"Beneath the oak, a squirrel scurries by","As sunlight dapples, in the sky so high.",no
+"Beneath the oak, a squirrel scurries by",with bushy tail held high.,yes
+"Beneath the oak, a squirrel scurries by",...,yes
+"Beneath the oak, a squirrel scurries by","{
+""line"" ""Its bushy tail held high in the sky""
+}
+
+
+{
+""line"" ""With acorns",yes
+"Beneath the oak, a squirrel scurries by",and sunlight filters through the sky.,no
+"Beneath the oak, a squirrel scurries by",A flash of brown against the sky.,yes
+"Beneath the oak, a squirrel scurries by","And hides its treasure, up so high.",yes
+"Beneath the oak, a squirrel scurries by",As leaves of gold dance in the sky so high.,no
+"Beneath the oak, a squirrel scurries by","Searching for acorns, high and nigh",yes
+"Beneath the oak, a squirrel scurries by","Beneath the sky, a hawk does fly.",no
+"Beneath the oak, a squirrel scurries by",And gathers acorns for a winter's supply.,yes
+"Beneath the oak, a squirrel scurries by","And seeks a nut, beneath its eye.",yes
+"Beneath the oak, a squirrel scurries by","Beneath the moss, a mushroom does lie.",no
+"Beneath the oak, a squirrel scurries by","With leaves of gold, against the autumn sky",yes
+He saw a carrot and had to grab it,"For a crispy snack, he'd go to bat with a spat.",no
+He saw a carrot and had to grab it,His hunger made his stomach grab it.,yes
+He saw a carrot and had to grab it,"And stuffed it whole, like a hungry rabbit.",yes
+He saw a carrot and had to grab it,"His hunger, a desperate little habit",yes
+He saw a carrot and had to grab it,"It was so orange, making him quite smitten.",yes
+He saw a carrot and had to grab it,A juicy treat for his furry rabbit.,yes
+He saw a carrot and had to grab it,...,no
+He saw a carrot and had to grab it,"For a delicious, crunchy nibble and a happy rabbit.",yes
+He saw a carrot and had to grab it,"It was orange and bright, a delicious habit.",yes
+He saw a carrot and had to grab it,"It was bright orange, a delicious habit.",yes
+He saw a carrot and had to grab it,"And take a juicy, crunchy bite of it.",yes
+He saw a carrot and had to grab it,"Quickly he snatched it, there was no time to chat.",yes
+He saw a carrot and had to grab it,His hunger was a snapping rabbit,yes
+He saw a carrot and had to grab it,"His hunger grew, he couldn't stand it",yes
+He saw a carrot and had to grab it,"It looked so juicy, couldn't quit it!",yes
+He saw a carrot and had to grab it,"From its leafy bed, a delicious nibble.",no
+He saw a carrot and had to grab it,"It shimmered bright, a tempting rabbit",yes
+He saw a carrot and had to grab it,"Before it wiggled and said, 'I'm a rat!'",yes
+He saw a carrot and had to grab it,"Its orange hue, a vibrant habit",yes
+He saw a carrot and had to grab it,"Its orange glow, a shining habit.",yes
+He saw a wallet and had to grab it,He knew it meant a quick cashrabbit.,yes
+He saw a wallet and had to grab it,A quick escape before anyone was sad about it,yes
+He saw a wallet and had to grab it,So quick and easy was that bandit,yes
+He saw a wallet and had to grab it,"He slipped it in his pocket, quick as a rabbit.",yes
+He saw a wallet and had to grab it,"/
+{
+""line"" ""He'd never had such a fat, juicy rabbit."" 
+}",no
+He saw a wallet and had to grab it,So greed took hold and he got the habit.,yes
+He saw a wallet and had to grab it,And quickly disappeared without a habit,yes
+He saw a wallet and had to grab it,"A thief's delight, a moment to flaunt it.",yes
+He saw a wallet and had to grab it,"His greed for riches, a terrible habit",yes
+He saw a wallet and had to grab it,"He snatched its contents, a greedy rabbit.",yes
+He saw a wallet and had to grab it,"It was a treasure, that's what he thought it",yes
+He saw a wallet and had to grab it,"The need for riches, he could not quit.",no
+He saw a wallet and had to grab it,He couldn't let an opportunity like that pass him.,no
+He saw a wallet and had to grab it,"A foolish deed, he knew, with a stab",yes
+He saw a wallet and had to grab it,And hoped that nobody would stab it,yes
+He saw a wallet and had to grab it,"No time for second thoughts, he'd always grab it",yes
+He saw a wallet and had to grab it,"And make a quick getaway, that's his habit.",yes
+He saw a wallet and had to grab it,His greed was stronger than any habit,yes
+He saw a wallet and had to grab it,Before someone else managed to snag it.,yes
+He saw a wallet and had to grab it,It was just too tempting to let it.,yes
+The silver moon cast its gentle light,Upon the sleeping world tonight.,yes
+The silver moon cast its gentle light,"Upon the sleeping world, a silver sight.",yes
+The silver moon cast its gentle light,"Across the sleeping world, a silent night.",yes
+The silver moon cast its gentle light,Across the sleeping world so bright,yes
+The silver moon cast its gentle light,"Upon the world, all shimmering and bright.",yes
+The silver moon cast its gentle light,And bathed the world in a silvery white.,yes
+The silver moon cast its gentle light,"On the sleeping earth, a peaceful sight",yes
+The silver moon cast its gentle light,"Upon the sleeping world, soft and bright",yes
+The silver moon cast its gentle light,and bathed the world in a peaceful night,yes
+The silver moon cast its gentle light,"Upon the sleeping world, soft and bright",yes
+The silver moon cast its gentle light,"Over the sleeping meadows, soft and white",yes
+The silver moon cast its gentle light,"Upon the world, a soft, ethereal sight.",yes
+The silver moon cast its gentle light,Across the slumbering land so bright,yes
+The silver moon cast its gentle light,Upon the world throughout the night.,yes
+The silver moon cast its gentle light,Upon the sleeping world so bright.,yes
+The silver moon cast its gentle light,To bathe the world in a starry night.,yes
+The silver moon cast its gentle light,"Across the land, a peaceful sight.",no
+The silver moon cast its gentle light,Upon the sleeping world so bright,yes
+The silver moon cast its gentle light,Upon the sleeping world tonight,yes
+The silver moon cast its gentle light,And bathed the world in a silvery white.,yes
+"Boxes of books, a reader's delight","Where tales unfold, both day and night",yes
+"Boxes of books, a reader's delight","A world of stories, both dark and bright.",yes
+"Boxes of books, a reader's delight","A treasure to behold, both day and night",yes
+"Boxes of books, a reader's delight","So many worlds, in plain sight.",yes
+"Boxes of books, a reader's delight","A literary world, both dark and bright",yes
+"Boxes of books, a reader's delight","Where stories unfold, day and night",yes
+"Boxes of books, a reader's delight","A world of words, both dark and bright",yes
+"Boxes of books, a reader's delight","Where stories unfold, both day and night",yes
+"Boxes of books, a reader's delight","Pages to turn, both day and night",yes
+"Boxes of books, a reader's delight",Filling their minds with knowledge bright,yes
+"Boxes of books, a reader's delight",Hours of escape from the world's harsh fight,yes
+"Boxes of books, a reader's delight",Where stories unfold both day and night.,yes
+"Boxes of books, a reader's delight","A treasure trove, both old and bright",yes
+"Boxes of books, a reader's delight",Imagination takes flight.,yes
+"Boxes of books, a reader's delight","Stories unfold, both dark and bright",yes
+"Boxes of books, a reader's delight","With stories within, both dark and bright.",yes
+"Boxes of books, a reader's delight","Worlds of wonder, day and night",yes
+"Boxes of books, a reader's delight","A world of stories, shining bright",yes
+"Boxes of books, a reader's delight",Filling each day and every night.,yes
+"Boxes of books, a reader's delight","A world of stories, shining bright.",yes
+Footsteps echoing on the schoolyard bricks,"A symphony of sound, a chorus of clicks.",yes
+Footsteps echoing on the schoolyard bricks,"A sound of laughter, light and quick",yes
+Footsteps echoing on the schoolyard bricks,Where memories and laughter intermix.,yes
+Footsteps echoing on the schoolyard bricks,"The laughter of children, quick, light, and slick",yes
+Footsteps echoing on the schoolyard bricks,"Empty swings creak, with memories they mix.",yes
+Footsteps echoing on the schoolyard bricks,...,yes
+Footsteps echoing on the schoolyard bricks,As children laugh and play with boundless kicks.,yes
+Footsteps echoing on the schoolyard bricks,"Whispers of laughter, secrets they fix.",yes
+Footsteps echoing on the schoolyard bricks,"A hollow sound, both joyous and tricks.",yes
+Footsteps echoing on the schoolyard bricks,"A memory fading, a childhood brisk.",yes
+Footsteps echoing on the schoolyard bricks,"Memories flicker, quick as magic tricks.",yes
+Footsteps echoing on the schoolyard bricks,"As children laugh with joyful, carefree tricks.",yes
+Footsteps echoing on the schoolyard bricks,Rekindle memories of forgotten tricks.,yes
+Footsteps echoing on the schoolyard bricks,Where memories of laughter softly mix.,yes
+Footsteps echoing on the schoolyard bricks,"A lonely child's heart, it softly clicks",yes
+Footsteps echoing on the schoolyard bricks,"/
+
+
+{""line"" ""Empty swings creak, their lonely tricks.""}",no
+Footsteps echoing on the schoolyard bricks,Where childhood dreams and laughter mix.,yes
+Footsteps echoing on the schoolyard bricks,A memory whispers of youthful tricks,yes
+Footsteps echoing on the schoolyard bricks,Where laughter and secrets freely mix.,yes
+Footsteps echoing on the schoolyard bricks,"A lonely bell rings, a mournful mix.",yes
+Footsteps echoing on the prison yard bricks,A lonely soul's despair in the wind it clicks.,yes
+Footsteps echoing on the prison yard bricks,"Memories of freedom, a heart that now clicks.",yes
+Footsteps echoing on the prison yard bricks,"A mournful hymn, the prisoner's soul picks.",yes
+Footsteps echoing on the prison yard bricks,"A hollow silence, a heart that thickly sticks",yes
+Footsteps echoing on the prison yard bricks,A lone wolf howls as the night quickly fix,yes
+Footsteps echoing on the prison yard bricks,"A lonely soul, his future all sticks.",no
+Footsteps echoing on the prison yard bricks,A mournful sound that slowly flicks,yes
+Footsteps echoing on the prison yard bricks,"This lonely rhythm, ever so quick",yes
+Footsteps echoing on the prison yard bricks,"A story of longing, of freedom, and ticks.",yes
+Footsteps echoing on the prison yard bricks,"Whispers of freedom, a heart's desperate fix.",yes
+Footsteps echoing on the prison yard bricks,"A solitary soul, in silence, he sticks",yes
+Footsteps echoing on the prison yard bricks,"""""""
+{
+""line"" ""A solitary soul, life's journey so sick.""
+}
+```",yes
+Footsteps echoing on the prison yard bricks,A mournful song the hollow wind clicks.,yes
+Footsteps echoing on the prison yard bricks,Where shadows dance and hope slowly flicks.,yes
+Footsteps echoing on the prison yard bricks,"A lonely figure, with despair in his clicks",yes
+Footsteps echoing on the prison yard bricks,"{""line"" ""A silent testament to weary tricks.""}
+
+
+Thanks!",yes
+Footsteps echoing on the prison yard bricks,"A hollow silence, where hope slowly flicks",yes
+Footsteps echoing on the prison yard bricks,"A silent vigil, where hope slowly flicks.",yes
+Footsteps echoing on the prison yard bricks,"A lone soul searching for solace, for fixes",yes
+Footsteps echoing on the prison yard bricks,"```json
+  {
+    ""line"" ""Where lonely souls in silent shadows fix""",yes
