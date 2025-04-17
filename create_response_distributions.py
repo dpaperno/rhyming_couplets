@@ -183,7 +183,7 @@ The value should be the rhyming line."""
     
     print(f"Checking rhymes for {n_samples} responses")
     
-    client = anthropic.Anthropic(api_key="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")
+    client = anthropic.Anthropic(api_key="")
     
     for i, response in enumerate(responses):
         if i % 10 == 0:
