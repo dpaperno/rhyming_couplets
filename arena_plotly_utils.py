@@ -12,13 +12,14 @@ def to_numpy(tensor):
     """
     Helper function to convert a tensor to a numpy array. Also works on lists, tuples, and numpy arrays.
     """
-    if isinstance(tensor, np.ndarray):
+    if isinstance(tensor, (t.Tensor, t.nn.parameter.Parameter)):
+        return tensor.detach().cpu().to(t.float32).numpy()
+    elif isinstance(tensor, (int, float, bool, str)):
+        return np.array(tensor)
+    elif isinstance(tensor, np.ndarray):
         return tensor
     elif isinstance(tensor, (list, tuple)):
-        array = np.array(tensor)
-        return array
-    elif isinstance(tensor, (t.Tensor, t.nn.parameter.Parameter)):
-        return tensor.detach().cpu().numpy()
+        return np.array(tensor)
     elif isinstance(tensor, (int, float, bool, str)):
         return np.array(tensor)
     else:
