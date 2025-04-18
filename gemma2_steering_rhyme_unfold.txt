@@ -1,0 +1,95 @@
+--- Configuration ---
+Model ID: google/gemma-2-9b-it
+Quantized: False
+Target Layer: model.layers.20
+Steering Multiplier: 1.5
+Max New Tokens: 150
+Temperature: 0.7
+Do Sample: True
+
+--- Positive Prompts ---
+- <start_of_turn>user
+A rhymed couplet:<end_of_turn>
+<start_of_turn>model
+He saw a carrot and had to grab it
+
+- <start_of_turn>user
+A rhymed couplet:
+<end_of_turn>
+<start_of_turn>model
+He saw a carrot and had to grab it
+
+- <start_of_turn>user
+Continue a rhyming poem starting with the following line:
+<end_of_turn>
+<start_of_turn>model
+He saw a carrot and had to grab it
+
+- <start_of_turn>user
+Continue a rhyming poem starting with the following line:<end_of_turn>
+<start_of_turn>model
+He saw a carrot and had to grab it
+
+
+--- Negative Prompts ---
+- <start_of_turn>user
+A rhymed couplet:<end_of_turn>
+<start_of_turn>model
+A single rose, its petals unfold
+
+- <start_of_turn>user
+A rhymed couplet:
+<end_of_turn>
+<start_of_turn>model
+A single rose, its petals unfold
+
+- <start_of_turn>user
+Continue a rhyming poem starting with the following line:
+<end_of_turn>
+<start_of_turn>model
+A single rose, its petals unfold
+
+- <start_of_turn>user
+Continue a rhyming poem starting with the following line:<end_of_turn>
+<start_of_turn>model
+A single rose, its petals unfold
+
+
+--- Generation Prompt ---
+<start_of_turn>user
+A rhymed couplet:<end_of_turn>
+<start_of_turn>model
+He saw a carrot and had to grab it
+
+
+==============================
+--- Baseline Output ---
+user
+A rhymed couplet:
+model
+He saw a carrot and had to grab it
+With a joyful leap, he snagged and jabbed it. 
+
+
+Let me know if you'd like another one!  I can do different themes. 😊  
+
+
+==============================
+--- Steered Output ---
+user
+A rhymed couplet:
+model
+He saw a carrot and had to grab it
+Then he ran away, he was really a bandit! 
+
+
+--- Neg Steered Output ---
+user
+A rhymed couplet:
+model
+He saw a carrot and had to grab it
+A story of beauty, yet to unfold.  
+
+
+
+
